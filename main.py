@@ -18,6 +18,20 @@ while i < 5:
     try:
         post_message, powiaty_left, powiaty_ammount = select_turn_type()
         i = 10
+        items_to_sort = [(v, k) for (k, v) in zip(powiaty_ammount.keys(), powiaty_ammount.values())]
+        items_to_sort.sort(reverse = True)
+        with open('map-data/names.json', encoding='utf-8') as f:
+            powiaty_names = json.load(f)
+
+        if (len(items_to_sort) > 10):
+            range_len = 10
+        else:
+            range_len = len(items_to_sort)
+        message = 'Top {} regiony by number of controlled territories:'.format(range_len)
+        for j in range(range_len):
+            powiat_name = powiaty_names[items_to_sort[j][1]]
+            message = '{}\n{}: {}'.format(message, powiat_name, items_to_sort[j][0])
+        log_info(message)
     except Exception as e:
         i += 1
         log_error('An error {} occured, trying again [{}/{}].'.format(e, i, 5))
