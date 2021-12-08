@@ -18,8 +18,8 @@ def create_map():
 
     with open('map-data/names.json', 'r', encoding = 'utf-8') as f:
         names = json.load(f)
-    powiaty = geopandas.read_file('map-data/powiaty.shp', encoding = 'utf-8')
-    powiaty_shapes = geopandas.read_file('map-data/powiaty-shapes.shp', encoding = 'utf-8')
+    powiaty = geopandas.read_file('map-data/regiony.shp', encoding = 'utf-8')
+    powiaty_shapes = geopandas.read_file('map-data/regiony-shapes.shp', encoding = 'utf-8')
     powiaty = powiaty.merge(powiaty_shapes, how = 'left', left_index = True, right_index = True)
     powiaty = powiaty.drop(columns = 'code_y')
     powiaty = powiaty.rename(columns = {'code_x': 'code', 'geometry_x': 'geometry', 'geometry_y': 'powiat_shape'})
@@ -37,5 +37,5 @@ def create_map():
     powiaty = powiaty.drop(columns = ['geometry', 'powiat_shape'])
     powiaty = pandas.DataFrame(powiaty)
     powiaty = powiaty.set_index('code')
-    with open('map-data/powiaty.json', 'w', encoding = 'utf-8') as f:
+    with open('map-data/regiony.json', 'w', encoding = 'utf-8') as f:
         f.write(powiaty.to_json(orient = 'index'))
