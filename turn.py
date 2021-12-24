@@ -52,6 +52,7 @@ def play_turn(turn_type):
 
     #find a random powiat, its owner will be conquering
     if turn_type == 'regular':
+        # random_powiat_row = powiaty.loc[[powiaty.index[96]]]
         random_powiat_row = powiaty.loc[[random.choice(powiaty.index)]]
     elif turn_type == 'last':
         all_rows_for_conquering_powiat = powiaty[powiaty['belongs_to'] == last_powiat]
@@ -71,10 +72,11 @@ def play_turn(turn_type):
     all_rows_for_conquering_powiat = powiaty[powiaty['belongs_to'] == conquering_powiat_code]
 
     distances = {}
+
     for index, row in powiaty.iterrows():
         if (row.belongs_to != conquering_powiat_code and row['powiat_shape'].touches(conquering_powiat_row['geometry'].iloc[0])):
+                # or (row.belongs_to != conquering_powiat_code and row['powiat_shape'].overlaps(conquering_powiat_row['geometry'].iloc[0])):
             distances[row.code] = row['powiat_shape'].centroid.distance(conquering_powiat_row['geometry'].iloc[0].centroid)
-
     dist_list = [(c, d) for c, d in zip(distances.keys(), distances.values())]
     dist_list = sorted(dist_list, key = lambda x: x[1])
     if len(dist_list) > 3: 
