@@ -23,7 +23,7 @@ def select_turn_type():
     if (last_powiat == '0'):
         return play_turn('regular')
 
-    if (random.random() < 1/63):
+    if (random.random() < 1/108):
         print('[INFO] Playing independence round.')
         return play_independence_turn()
 

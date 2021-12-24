@@ -74,8 +74,8 @@ def play_turn(turn_type):
     distances = {}
 
     for index, row in powiaty.iterrows():
-        if (row.belongs_to != conquering_powiat_code and row['powiat_shape'].touches(conquering_powiat_row['geometry'].iloc[0])):
-                # or (row.belongs_to != conquering_powiat_code and row['powiat_shape'].overlaps(conquering_powiat_row['geometry'].iloc[0])):
+        if (row.belongs_to != conquering_powiat_code and row['powiat_shape'].touches(conquering_powiat_row['geometry'].iloc[0])) \
+                or (row.belongs_to != conquering_powiat_code and row['powiat_shape'].overlaps(conquering_powiat_row['geometry'].iloc[0])):
             distances[row.code] = row['powiat_shape'].centroid.distance(conquering_powiat_row['geometry'].iloc[0].centroid)
     dist_list = [(c, d) for c, d in zip(distances.keys(), distances.values())]
     dist_list = sorted(dist_list, key = lambda x: x[1])
