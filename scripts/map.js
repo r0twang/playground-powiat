@@ -8,7 +8,7 @@ d3.json('../map-data/regiony.json').then(function(powiatyJson)
     {
         layer.setStyle(
             {
-                className: 'region ' + powiatyJson[feature.properties.belongs_to].name,
+                className: 'powiat ' + powiatyJson[feature.properties.belongs_to].name,
                 fillColor: powiatyJson[feature.properties.belongs_to].value,
                 fillOpacity: 1,
                 weight: 1,
@@ -42,7 +42,7 @@ d3.json('../map-data/regiony.json').then(function(powiatyJson)
             }
 
             currentHover = newHoverName;
-            var hoverShape = topojson.merge(powiatyTopology, powiatyTopology.objects['regiony-shapes'].geometries.filter(function (p) { return powiatyJson[p.properties.code].belongs_to == newHoverName}));
+            var hoverShape = topojson.merge(powiatyTopology, powiatyTopology.objects['powiaty-shapes'].geometries.filter(function (p) { return powiatyJson[p.properties.code].belongs_to == newHoverName}));
             hoverLayer = L.geoJSON(hoverShape, {onEachFeature: countryHover}).addTo(map);
         }
     }
@@ -63,11 +63,11 @@ d3.json('../map-data/regiony.json').then(function(powiatyJson)
     d3.json('map-data/regiony-shapes.json').then(function(powiatyShapesJson)
     {
         powiatyTopology = powiatyShapesJson;
-        var powiatyShapes = topojson.feature(powiatyShapesJson, powiatyShapesJson.objects['regiony-shapes']);
+        var powiatyShapes = topojson.feature(powiatyShapesJson, powiatyShapesJson.objects['powiaty-shapes']);
 
         for (var obj in powiatyJson)
         {
-            var mergedPowiat = topojson.merge(powiatyShapesJson, powiatyShapesJson.objects['regiony-shapes'].geometries.filter(function (p) { return powiatyJson[p.properties.code].belongs_to == obj}));
+            var mergedPowiat = topojson.merge(powiatyShapesJson, powiatyShapesJson.objects['powiaty-shapes'].geometries.filter(function (p) { return powiatyJson[p.properties.code].belongs_to == obj}));
             mergedPowiat.properties = {};
             mergedPowiat.properties.belongs_to = obj;
             L.geoJSON(mergedPowiat, {onEachFeature: mergedPowiaty}).addTo(map);
