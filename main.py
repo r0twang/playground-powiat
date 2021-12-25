@@ -32,6 +32,7 @@ while i < 5:
             powiat_name = powiaty_names[items_to_sort[j][1]]
             message = '{}\n{}: {}'.format(message, powiat_name, items_to_sort[j][0])
         log_info(message)
+        log_info('')
     except Exception as e:
         i += 1
         log_error('An error {} occured, trying again [{}/{}].'.format(e, i, 5))
