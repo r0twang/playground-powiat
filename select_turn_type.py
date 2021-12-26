@@ -11,8 +11,8 @@ def load_values():
     return powiaty_left, last_powiat
 
 def get_last_powiat_value(powiaty_left):
-    x = 156 - powiaty_left
-    return (((3.5 * 0.46) * 10**-6) * x**2) + (0.125*0.46)
+    x = 160 - powiaty_left
+    return (((3.5 * 0.47) * 10**-6) * x**2) + (0.125*0.47)
 
 def get_biggest_powiat_value(powiaty_left):
     x = 156 - powiaty_left
@@ -26,7 +26,7 @@ def select_turn_type():
 
     independence_random_val = random.random()
     info = 'Independence_random_val = {}'.format(independence_random_val)
-    independence_probability = 1/108
+    independence_probability = 1/110
     log_info(info)
     independence_info = 'Independence probability = {}'.format(independence_probability)
     log_info(independence_info)

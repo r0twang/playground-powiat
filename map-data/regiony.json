@@ -967,10 +967,10 @@
   },
   "1816": {
     "NAME_1": "Nowa Huta",
-    "name": "Kombinat",
+    "name": "Kombinat Zachód",
     "value": "#e377c2",
     "belongs_to": "1816",
-    "belongs_to_name": "Kombinat"
+    "belongs_to_name": "Kombinat Zachód"
   },
   "1817": {
     "NAME_1": "Nowa Huta",
@@ -1090,5 +1090,33 @@
     "value": "#e377c2",
     "belongs_to": "1833",
     "belongs_to_name": "Osiedle Lesisko"
+  },
+  "1834": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kombinat Południe",
+    "value": "#e377c2",
+    "belongs_to": "1834",
+    "belongs_to_name": "Kombinat Południe"
+  },
+  "1835": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kombinat Północ",
+    "value": "#e377c2",
+    "belongs_to": "1835",
+    "belongs_to_name": "Kombinat Północ"
+  },
+  "1836": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kombinat Centrum",
+    "value": "#e377c2",
+    "belongs_to": "1836",
+    "belongs_to_name": "Kombinat Centrum"
+  },
+  "1837": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kombinat Wschód",
+    "value": "#e377c2",
+    "belongs_to": "1837",
+    "belongs_to_name": "Kombinat Wschód"
   }
 }
