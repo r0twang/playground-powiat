@@ -11,11 +11,11 @@ def load_values():
     return powiaty_left, last_powiat
 
 def get_last_powiat_value(powiaty_left):
-    x = 160 - powiaty_left
-    return (((3.5 * 0.47) * 10**-6) * x**2) + (0.125*0.47)
+    x = 167 - powiaty_left
+    return (((3.5 * 0.49) * 10**-6) * x**2) + (0.125*0.49)
 
 def get_biggest_powiat_value(powiaty_left):
-    x = 156 - powiaty_left
+    x = 167 - powiaty_left
     return 0.0075 * x - 1.9275
 
 def select_turn_type():

@@ -447,6 +447,20 @@
     "belongs_to": "0812",
     "belongs_to_name": "Kostrze"
   },
+"0813": {
+    "NAME_1": "Dębniki",
+    "name": "Górka Pychowicka",
+    "value": "#e377c2",
+    "belongs_to": "0813",
+    "belongs_to_name": "Górka Pychowicka"
+  },
+"0814": {
+    "NAME_1": "Dębniki",
+    "name": "Ruczaj",
+    "value": "#e377c2",
+    "belongs_to": "0814",
+    "belongs_to_name": "Ruczaj"
+  },
 "0901": {
     "NAME_1": "Łagiewniki - Borek Fałęcki",
     "name": "Cegielniana",
@@ -712,6 +726,41 @@
     "value": "#e377c2",
     "belongs_to": "1313",
     "belongs_to_name": "Bugaj"
+  },
+"1314": {
+    "NAME_1": "Podgórze",
+    "name": "Zabłocie Port",
+    "value": "#e377c2",
+    "belongs_to": "1314",
+    "belongs_to_name": "Zabłocie Port"
+  },
+"1315": {
+    "NAME_1": "Podgórze",
+    "name": "Mały Płaszów",
+    "value": "#e377c2",
+    "belongs_to": "1315",
+    "belongs_to_name": "Mały Płaszów"
+  },
+"1316": {
+    "NAME_1": "Podgórze",
+    "name": "Golikówka",
+    "value": "#e377c2",
+    "belongs_to": "1316",
+    "belongs_to_name": "Golikówka"
+  },
+"1317": {
+    "NAME_1": "Podgórze",
+    "name": "Osiedle Kolejowe",
+    "value": "#e377c2",
+    "belongs_to": "1317",
+    "belongs_to_name": "Osiedle Kolejowe"
+  },
+"1318": {
+    "NAME_1": "Podgórze",
+    "name": "Złocień",
+    "value": "#e377c2",
+    "belongs_to": "1318",
+    "belongs_to_name": "Złocień"
   },
 "1401": {
     "NAME_1": "Czyżyny",
