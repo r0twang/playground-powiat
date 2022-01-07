@@ -736,10 +736,10 @@
   },
 "1315": {
     "NAME_1": "Podgórze",
-    "name": "Mały Płaszów",
+    "name": "Lasówka",
     "value": "#e377c2",
     "belongs_to": "1315",
-    "belongs_to_name": "Mały Płaszów"
+    "belongs_to_name": "Lasówka"
   },
 "1316": {
     "NAME_1": "Podgórze",
@@ -797,6 +797,13 @@
     "belongs_to": "1405",
     "belongs_to_name": "Czyżyny Łęg"
   },
+"1406": {
+    "NAME_1": "Czyżyny",
+    "name": "Głębinów",
+    "value": "#e377c2",
+    "belongs_to": "1406",
+    "belongs_to_name": "Głębinów"
+  },
 "1501": {
     "NAME_1": "Mistrzejowice",
     "name": "Mistrzejowice",
@@ -810,6 +817,13 @@
     "value": "#e377c2",
     "belongs_to": "1502",
     "belongs_to_name": "Batowice"
+  },
+"1503": {
+    "NAME_1": "Mistrzejowice",
+    "name": "Dłubnia",
+    "value": "#e377c2",
+    "belongs_to": "1503",
+    "belongs_to_name": "Dłubnia"
   },
 "1601": {
     "NAME_1": "Bieńczyce",
@@ -831,6 +845,13 @@
     "value": "#e377c2",
     "belongs_to": "1603",
     "belongs_to_name": "Bieńczyce Stare"
+  },
+"1604": {
+    "NAME_1": "Bieńczyce",
+    "name": "Osiedle Złotej Jesieni",
+    "value": "#e377c2",
+    "belongs_to": "1604",
+    "belongs_to_name": "Osiedle Złotej Jesieni"
   },
 "1701": {
     "NAME_1": "Wzgórza Krzesławickie",
@@ -883,10 +904,10 @@
   },
 "1708": {
     "NAME_1": "Wzgórza Krzesławickie",
-    "name": "Wadów",
+    "name": "Wadów Północ",
     "value": "#e377c2",
     "belongs_to": "1708",
-    "belongs_to_name": "Wadów"
+    "belongs_to_name": "Wadów Północ"
   },
 "1709": {
     "NAME_1": "Wzgórza Krzesławickie",
@@ -908,6 +929,13 @@
     "value": "#e377c2",
     "belongs_to": "1711",
     "belongs_to_name": "Wróżenice"
+  },
+"1712": {
+    "NAME_1": "Wzgórza Krzesławickie",
+    "name": "Wadów Południe",
+    "value": "#e377c2",
+    "belongs_to": "1712",
+    "belongs_to_name": "Wadów Południe"
   },
 "1801": {
     "NAME_1": "Nowa Huta",
@@ -995,10 +1023,10 @@
   },
 "1813": {
     "NAME_1": "Nowa Huta",
-    "name": "Na Skarpie",
+    "name": "Łąki Nowohuckie",
     "value": "#e377c2",
     "belongs_to": "1813",
-    "belongs_to_name": "Na Skarpie"
+    "belongs_to_name": "Łąki Nowohuckie"
   },
   "1814": {
     "NAME_1": "Nowa Huta",
@@ -1037,10 +1065,10 @@
   },
   "1819": {
     "NAME_1": "Nowa Huta",
-    "name": "Branice",
+    "name": "Branice Zachód",
     "value": "#e377c2",
     "belongs_to": "1819",
-    "belongs_to_name": "Branice"
+    "belongs_to_name": "Branice Zachód"
   },
   "1820": {
     "NAME_1": "Nowa Huta",
@@ -1167,5 +1195,103 @@
     "value": "#e377c2",
     "belongs_to": "1837",
     "belongs_to_name": "Kombinat Wschód"
+  },
+  "1838": {
+    "NAME_1": "Nowa Huta",
+    "name": "Osiedle Centrum E",
+    "value": "#e377c2",
+    "belongs_to": "1838",
+    "belongs_to_name": "Osiedle Centrum E"
+  },
+  "1839": {
+    "NAME_1": "Nowa Huta",
+    "name": "Osiedle Na Skarpie",
+    "value": "#e377c2",
+    "belongs_to": "1839",
+    "belongs_to_name": "Osiedle Na Skarpie"
+  },
+  "1840": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kopań",
+    "value": "#e377c2",
+    "belongs_to": "1840",
+    "belongs_to_name": "Kopań"
+  },
+  "1841": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kępa",
+    "value": "#e377c2",
+    "belongs_to": "1841",
+    "belongs_to_name": "Kępa"
+  },
+  "1842": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kujawy Port",
+    "value": "#e377c2",
+    "belongs_to": "1842",
+    "belongs_to_name": "Kujawy Port"
+  },
+  "1843": {
+    "NAME_1": "Nowa Huta",
+    "name": "Stryjów",
+    "value": "#e377c2",
+    "belongs_to": "1843",
+    "belongs_to_name": "Stryjów"
+  },
+  "1844": {
+    "NAME_1": "Nowa Huta",
+    "name": "Rogów",
+    "value": "#e377c2",
+    "belongs_to": "1844",
+    "belongs_to_name": "Rogów"
+  },
+  "1845": {
+    "NAME_1": "Nowa Huta",
+    "name": "Las Kościelnicki",
+    "value": "#e377c2",
+    "belongs_to": "1845",
+    "belongs_to_name": "Las Kościelnicki"
+  },
+  "1846": {
+    "NAME_1": "Nowa Huta",
+    "name": "Cło",
+    "value": "#e377c2",
+    "belongs_to": "1846",
+    "belongs_to_name": "Cło"
+  },
+  "1847": {
+    "NAME_1": "Nowa Huta",
+    "name": "Stanisławice",
+    "value": "#e377c2",
+    "belongs_to": "1847",
+    "belongs_to_name": "Stanisławice"
+  },
+  "1848": {
+    "NAME_1": "Nowa Huta",
+    "name": "Krzemionki",
+    "value": "#e377c2",
+    "belongs_to": "1848",
+    "belongs_to_name": "Krzemionki"
+  },
+  "1849": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kopaniny",
+    "value": "#e377c2",
+    "belongs_to": "1849",
+    "belongs_to_name": "Kopaniny"
+  },
+  "1850": {
+    "NAME_1": "Nowa Huta",
+    "name": "Wyciąże - Nowa Wieś",
+    "value": "#e377c2",
+    "belongs_to": "1850",
+    "belongs_to_name": "Wyciąże - Nowa Wieś"
+  },
+  "1851": {
+    "NAME_1": "Nowa Huta",
+    "name": "Branice Wschód",
+    "value": "#e377c2",
+    "belongs_to": "1851",
+    "belongs_to_name": "Branice Wschód"
   }
 }
