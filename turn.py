@@ -52,8 +52,7 @@ def play_turn(turn_type):
 
     #find a random powiat, its owner will be conquering
     if turn_type == 'regular':
-        # random_powiat_row = powiaty.loc[[powiaty.index[96]]]
-        random_powiat_row = powiaty.loc[[random.choice(powiaty.index)]]
+         random_powiat_row = powiaty.loc[[random.choice(powiaty.index)]]
     elif turn_type == 'last':
         all_rows_for_conquering_powiat = powiaty[powiaty['belongs_to'] == last_powiat]
         random_powiat_row = all_rows_for_conquering_powiat.loc[[random.choice(all_rows_for_conquering_powiat.index)]]
@@ -148,10 +147,10 @@ def play_turn(turn_type):
     conquering_powiat_row = conquering_powiat_row.set_geometry('geometry')
 
     #get bbox for the detailed map
-    conquering_powiat_row.plot(ax = ax)
-    powiat_to_conquer_row.plot(ax = ax)
-    if (not all_rows_for_powiat_to_conquer_owner.empty):
-        powiat_to_conquer_owner_row.plot(ax = ax)
+    # conquering_powiat_row.plot(ax=ax)
+    powiat_to_conquer_row.plot(ax=ax)
+    if (all_rows_for_powiat_to_conquer_owner.empty):
+        powiat_to_conquer_owner_row.plot(ax=ax)
 
     x_limit = ax.get_xlim()
     y_limit = ax.get_ylim()
@@ -212,6 +211,7 @@ def play_turn(turn_type):
     ax.set_ylim(y_limit)
     adjust_text(texts, only_move = {'points': 'y', 'texts': 'y'}, va = 'center', autoalign = 'y')
     plt.savefig('detail-map.png', transparent = True)
+    plt.savefig('maps-detail/{}-detail.png'.format(date), transparent = True)
 
     #finally, update geometry for conquering conquered powiat
     conquering_powiat_geometry = conquering_powiat_geometry.union(powiat_to_conquer_row['powiat_shape'].iloc[0])
