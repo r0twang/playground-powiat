@@ -1,4 +1,4 @@
-import json, geopandas, pandas, random, contextily, os, re
+import json, geopandas, pandas, random, contextily, re
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as patheffects
 import matplotlib as matplotlib
@@ -10,9 +10,15 @@ months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Augus
 matplotlib.rcParams['hatch.linewidth'] = 3
 pandas.set_option('mode.chained_assignment', None)
 
+def get_conquer_chance(powiaty_left):
+    for key in conquer_chance:
+        if (powiaty_left > conquer_chance[key]):
+            return conquer_chance[key]
+
 def load_values():
-    powiaty = geopandas.read_file('map-data/powiaty.shp', encoding = 'utf-8')
-    powiaty_shapes = geopandas.read_file('map-data/powiaty-shapes.shp', encoding = 'utf-8')
+
+    powiaty = geopandas.read_file('map-data/regiony.shp', encoding = 'utf-8')
+    powiaty_shapes = geopandas.read_file('map-data/regiony-shapes.shp', encoding = 'utf-8')
     powiaty = powiaty.merge(powiaty_shapes, how = 'left', left_index = True, right_index = True)
     powiaty = powiaty.drop(columns = 'code_y')
     powiaty = powiaty.rename(columns = {'code_x': 'code', 'geometry_x': 'geometry', 'geometry_y': 'powiat_shape'})
@@ -28,18 +34,11 @@ def load_values():
             row_geometry = all_rows_for_powiat.unary_union
             powiaty['geometry'][powiaty['code'] == row['code']] = row_geometry
     
-    mapbox = ""
-    with open("api-key.txt", "r") as f:
-        for i in range(6):
-            line = f.readline()
-            if i != 5:
-                continue
-            mapbox = line.strip()
-
-    return powiaty, mapbox
+    return powiaty
 
 def play_turn(turn_type):
-    powiaty, mapbox = load_values()
+
+    powiaty = load_values()
 
     with open('map-data/status.txt', 'r') as f:
         powiaty_left = int(f.readline())
@@ -48,12 +47,12 @@ def play_turn(turn_type):
         biggest_powiat = f.readline().rstrip()
     
     month = months[date % 12]
-    year = 1999 + date // 12
+    year = 2022 + date // 12
     message = '{} {}'.format(month, year)
 
     #find a random powiat, its owner will be conquering
     if turn_type == 'regular':
-        random_powiat_row = powiaty.loc[[random.choice(powiaty.index)]]
+         random_powiat_row = powiaty.loc[[random.choice(powiaty.index)]]
     elif turn_type == 'last':
         all_rows_for_conquering_powiat = powiaty[powiaty['belongs_to'] == last_powiat]
         random_powiat_row = all_rows_for_conquering_powiat.loc[[random.choice(all_rows_for_conquering_powiat.index)]]
@@ -72,10 +71,11 @@ def play_turn(turn_type):
     all_rows_for_conquering_powiat = powiaty[powiaty['belongs_to'] == conquering_powiat_code]
 
     distances = {}
-    for index, row in powiaty.iterrows():
-        if (row.belongs_to != conquering_powiat_code and row['powiat_shape'].touches(conquering_powiat_row['geometry'].iloc[0])):
-            distances[row.code] = row['powiat_shape'].centroid.distance(conquering_powiat_row['geometry'].iloc[0].centroid)
 
+    for index, row in powiaty.iterrows():
+        if (row.belongs_to != conquering_powiat_code and row['powiat_shape'].touches(conquering_powiat_row['geometry'].iloc[0])) \
+                or (row.belongs_to != conquering_powiat_code and row['powiat_shape'].overlaps(conquering_powiat_row['geometry'].iloc[0])):
+            distances[row.code] = row['powiat_shape'].centroid.distance(conquering_powiat_row['geometry'].iloc[0].centroid)
     dist_list = [(c, d) for c, d in zip(distances.keys(), distances.values())]
     dist_list = sorted(dist_list, key = lambda x: x[1])
     if len(dist_list) > 3: 
@@ -127,19 +127,19 @@ def play_turn(turn_type):
         powiaty_left -= 1
 
     if (powiaty_left > 1):
-        info = '{} powiaty left.'.format(powiaty_left)
+        info = 'Na dzień dzisiejszy {} regiony left.'.format(powiaty_left)
     else:
         capitalized_name = conquering_powiat_name[0].capitalize() + conquering_powiat_name[1:]
-        info = '{} now rules over Poland. Niech żyje {}!'.format(capitalized_name, conquering_powiat_name)
+        info = '{} now rules over Kraków. Niech żyje {}!'.format(capitalized_name, conquering_powiat_name)
 
-    message = '{}\n{}\nCheck the full map at: http://powiatwarbot.xyz/.'.format(message, info)
+    message = '{}\n{}\n'.format(message, info)
     log_info(info)
 
     #=== Plotting both maps ===
 
     cmap = plt.get_cmap('tab20')
-    font_dict = {"fontfamily": "ARIAL" if os.name == "posix" else "arial", 'fontsize': 24, "fontweight": "bold"}
-    path_effects = [patheffects.Stroke(linewidth=3, foreground='black'), patheffects.Normal()]
+    font_dict = {'fontfamily': 'Arial', 'fontsize': 32, 'fontweight': 'bold'}
+    path_effects = [patheffects.Stroke(linewidth=4, foreground='black'), patheffects.Normal()]
     texts = []
     fig, ax = plt.subplots(figsize = (20,20))
     powiat_to_conquer = powiat_to_conquer_row.set_geometry('powiat_shape')
@@ -147,9 +147,14 @@ def play_turn(turn_type):
     conquering_powiat_row = conquering_powiat_row.set_geometry('geometry')
 
     #get bbox for the detailed map
-    powiat_to_conquer_centroid = powiat_to_conquer_row['powiat_shape'].iloc[0].centroid
-    x_limit = (powiat_to_conquer_centroid.x - 70000, powiat_to_conquer_centroid.x + 70000)
-    y_limit = (powiat_to_conquer_centroid.y - 70000, powiat_to_conquer_centroid.y + 70000)
+    # conquering_powiat_row.plot(ax=ax)
+    powiat_to_conquer_row.plot(ax=ax)
+    if (all_rows_for_powiat_to_conquer_owner.empty):
+        powiat_to_conquer_owner_row.plot(ax=ax)
+
+    x_limit = ax.get_xlim()
+    y_limit = ax.get_ylim()
+    ax.clear()
     ax.set_axis_off()
     ax.set_aspect('equal')
     powiaty_ammount = {}
@@ -168,13 +173,13 @@ def play_turn(turn_type):
     powiaty = powiaty.set_geometry('powiat_shape')
     powiaty.plot(ax = ax, color = 'none', dashes = ':', edgecolor = 'k', linewidth = 0.3)
 
-    conquering_powiat_row.plot(ax = ax, color = 'none', edgecolor = '#73e600', linewidth = 3)
+    conquering_powiat_row.plot(ax = ax, color = 'none', edgecolor = 'green', linewidth = 3)
     powiat_to_conquer_row.plot(ax = ax, color = cmap((powiat_to_conquer_owner_value - 1)/20), edgecolor = cmap((conquering_powiat_value - 1)/20), hatch = '///')
     powiat_to_conquer_row.plot(ax = ax, color = 'none', edgecolor = 'red', linewidth = 3)
 
     #draw text
-    conquering_text = plt.text(s = conquering_powiat_name, x = conquering_powiat_row['geometry'].iloc[0].centroid.x, y = conquering_powiat_row['geometry'].iloc[0].centroid.y, fontdict = font_dict, clip_on=True)
-    to_conquer_text = plt.text(s = powiat_to_conquer_name, x = powiat_to_conquer_row['powiat_shape'].iloc[0].centroid.x, y = powiat_to_conquer_row['powiat_shape'].iloc[0].centroid.y, fontdict = font_dict, clip_on=True)
+    conquering_text = plt.text(s = conquering_powiat_name, x = conquering_powiat_row['geometry'].iloc[0].centroid.x, y = conquering_powiat_row['geometry'].iloc[0].centroid.y, fontdict = font_dict)
+    to_conquer_text = plt.text(s = powiat_to_conquer_name, x = powiat_to_conquer_row['powiat_shape'].iloc[0].centroid.x, y = powiat_to_conquer_row['powiat_shape'].iloc[0].centroid.y, fontdict = font_dict)
 
     conquering_text.set_color('#9DFF9C')
     texts.append(conquering_text)
@@ -183,7 +188,7 @@ def play_turn(turn_type):
 
     if (not all_rows_for_powiat_to_conquer_owner.empty):
         powiat_to_conquer_owner_row.plot(ax = ax, color = 'none', edgecolor = 'blue', linewidth = 3)
-        to_conquer_owner_text = plt.text(s = powiat_to_conquer_owner_name, x = powiat_to_conquer_owner_row['geometry'].iloc[0].centroid.x, y = powiat_to_conquer_owner_row['geometry'].iloc[0].centroid.y, fontdict = font_dict, clip_on=True)
+        to_conquer_owner_text = plt.text(s = powiat_to_conquer_owner_name, x = powiat_to_conquer_owner_row['geometry'].iloc[0].centroid.x, y = powiat_to_conquer_owner_row['geometry'].iloc[0].centroid.y, fontdict = font_dict)
         to_conquer_owner_text.set_color('#788CFF')
         texts.append(to_conquer_owner_text)
 
@@ -191,6 +196,7 @@ def play_turn(turn_type):
         text.set_path_effects(path_effects)
 
     adjust_text(texts, only_move = {'points': 'y', 'texts': 'y'}, va = 'center', autoalign = 'y')
+    contextily.add_basemap(ax, source = contextily.sources.ST_TERRAIN_BACKGROUND, zoom = 8)
     plt.savefig('overall-map.png', transparent = True)
     plt.savefig('maps/{}.png'.format(date), transparent = True)
  
@@ -203,16 +209,16 @@ def play_turn(turn_type):
     #set bbox for detailed map
     ax.set_xlim(x_limit)
     ax.set_ylim(y_limit)
-    
-    contextily.add_basemap(ax, zoom=10, source="https://api.mapbox.com/styles/v1/kolorowytoster/ckn0rhk6b1er317pe7kg5jkgl/tiles/256/{z}/{x}/{y}@2x?access_token=" + mapbox)
+    adjust_text(texts, only_move = {'points': 'y', 'texts': 'y'}, va = 'center', autoalign = 'y')
     plt.savefig('detail-map.png', transparent = True)
+    plt.savefig('maps-detail/{}-detail.png'.format(date), transparent = True)
 
     #finally, update geometry for conquering conquered powiat
     conquering_powiat_geometry = conquering_powiat_geometry.union(powiat_to_conquer_row['powiat_shape'].iloc[0])
     powiaty['geometry'][powiaty['code'] == conquering_powiat_code] = conquering_powiat_geometry
     powiaty = powiaty.set_geometry('geometry')
     powiaty = powiaty.drop(columns = 'powiat_shape')
-    powiaty.to_file('map-data/powiaty.shp', encoding = 'utf-8')
+    powiaty.to_file('map-data/regiony.shp', encoding = 'utf-8')
     
     with open('map-data/status.txt', 'w') as f:
         f.write('{}\n'.format(powiaty_left))

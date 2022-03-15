@@ -162,24 +162,24 @@
   },
 "0406": {
     "NAME_1": "Prądnik Biały",
-    "name": "Witkowice - Górka Narodowa Wschód",
+    "name": "Górka Narodowa Wschód",
     "value": "#e377c2",
     "belongs_to": "0406",
-    "belongs_to_name": "Witkowice - Górka Narodowa Wschód"
+    "belongs_to_name": "Górka Narodowa Wschód"
   },
 "0407": {
     "NAME_1": "Prądnik Biały",
-    "name": "Witkowice - Górka Narodowa Zachód",
+    "name": "Górka Narodowa Zachód",
     "value": "#e377c2",
     "belongs_to": "0407",
-    "belongs_to_name": "Witkowice - Górka Narodowa Zachód"
+    "belongs_to_name": "Górka Narodowa Zachód"
   },
 "0408": {
     "NAME_1": "Prądnik Biały",
     "name": "Prądnik Biały Północ",
     "value": "#e377c2",
     "belongs_to": "0408",
-    "belongs_to_name": "Prądnik Biały"
+    "belongs_to_name": "Prądnik Biały Północ"
   },
 "0409": {
     "NAME_1": "Prądnik Biały",
@@ -194,6 +194,13 @@
     "value": "#e377c2",
     "belongs_to": "0410",
     "belongs_to_name": "Bronowice Wielkie"
+  },
+"0411": {
+    "NAME_1": "Prądnik Biały",
+    "name": "Witkowice",
+    "value": "#e377c2",
+    "belongs_to": "0411",
+    "belongs_to_name": "Witkowice"
   },
 "0501": {
     "NAME_1": "Krowodrza",
@@ -323,10 +330,10 @@
   },
 "0707": {
     "NAME_1": "Zwierzyniec",
-    "name": "Wola Justowska - Chełm",
+    "name": "Wola Justowska",
     "value": "#e377c2",
     "belongs_to": "0707",
-    "belongs_to_name": "Wola Justowska - Chełm"
+    "belongs_to_name": "Wola Justowska"
   },
 "0708": {
     "NAME_1": "Zwierzyniec",
@@ -348,6 +355,13 @@
     "value": "#e377c2",
     "belongs_to": "0710",
     "belongs_to_name": "Olszanica"
+  },
+"0711": {
+    "NAME_1": "Zwierzyniec",
+    "name": "Chełm",
+    "value": "#e377c2",
+    "belongs_to": "0711",
+    "belongs_to_name": "Chełm"
   },
 "0801": {
     "NAME_1": "Dębniki",
@@ -433,6 +447,20 @@
     "belongs_to": "0812",
     "belongs_to_name": "Kostrze"
   },
+"0813": {
+    "NAME_1": "Dębniki",
+    "name": "Górka Pychowicka",
+    "value": "#e377c2",
+    "belongs_to": "0813",
+    "belongs_to_name": "Górka Pychowicka"
+  },
+"0814": {
+    "NAME_1": "Dębniki",
+    "name": "Ruczaj",
+    "value": "#e377c2",
+    "belongs_to": "0814",
+    "belongs_to_name": "Ruczaj"
+  },
 "0901": {
     "NAME_1": "Łagiewniki - Borek Fałęcki",
     "name": "Cegielniana",
@@ -512,10 +540,10 @@
   },
 "1008": {
     "NAME_1": "Swoszowice",
-    "name": "Rajsko - Soboniowice",
+    "name": "Soboniowice",
     "value": "#e377c2",
     "belongs_to": "1008",
-    "belongs_to_name": "Rajsko - Soboniowice"
+    "belongs_to_name": "Soboniowice"
   },
 "1009": {
     "NAME_1": "Swoszowice",
@@ -523,6 +551,13 @@
     "value": "#e377c2",
     "belongs_to": "1009",
     "belongs_to_name": "Kosocice"
+  },
+"1010": {
+    "NAME_1": "Swoszowice",
+    "name": "Rajsko",
+    "value": "#e377c2",
+    "belongs_to": "1010",
+    "belongs_to_name": "Rajsko"
   },
 "1101": {
     "NAME_1": "Podgórze Duchackie",
@@ -685,6 +720,48 @@
     "belongs_to": "1312",
     "belongs_to_name": "Przewóz"
   },
+"1313": {
+    "NAME_1": "Podgórze",
+    "name": "Bugaj",
+    "value": "#e377c2",
+    "belongs_to": "1313",
+    "belongs_to_name": "Bugaj"
+  },
+"1314": {
+    "NAME_1": "Podgórze",
+    "name": "Zabłocie Port",
+    "value": "#e377c2",
+    "belongs_to": "1314",
+    "belongs_to_name": "Zabłocie Port"
+  },
+"1315": {
+    "NAME_1": "Podgórze",
+    "name": "Lasówka",
+    "value": "#e377c2",
+    "belongs_to": "1315",
+    "belongs_to_name": "Lasówka"
+  },
+"1316": {
+    "NAME_1": "Podgórze",
+    "name": "Golikówka",
+    "value": "#e377c2",
+    "belongs_to": "1316",
+    "belongs_to_name": "Golikówka"
+  },
+"1317": {
+    "NAME_1": "Podgórze",
+    "name": "Osiedle Kolejowe",
+    "value": "#e377c2",
+    "belongs_to": "1317",
+    "belongs_to_name": "Osiedle Kolejowe"
+  },
+"1318": {
+    "NAME_1": "Podgórze",
+    "name": "Złocień",
+    "value": "#e377c2",
+    "belongs_to": "1318",
+    "belongs_to_name": "Złocień"
+  },
 "1401": {
     "NAME_1": "Czyżyny",
     "name": "Czyżyny Lotnisko",
@@ -720,6 +797,13 @@
     "belongs_to": "1405",
     "belongs_to_name": "Czyżyny Łęg"
   },
+"1406": {
+    "NAME_1": "Czyżyny",
+    "name": "Głębinów",
+    "value": "#e377c2",
+    "belongs_to": "1406",
+    "belongs_to_name": "Głębinów"
+  },
 "1501": {
     "NAME_1": "Mistrzejowice",
     "name": "Mistrzejowice",
@@ -733,6 +817,13 @@
     "value": "#e377c2",
     "belongs_to": "1502",
     "belongs_to_name": "Batowice"
+  },
+"1503": {
+    "NAME_1": "Mistrzejowice",
+    "name": "Dłubnia",
+    "value": "#e377c2",
+    "belongs_to": "1503",
+    "belongs_to_name": "Dłubnia"
   },
 "1601": {
     "NAME_1": "Bieńczyce",
@@ -754,6 +845,13 @@
     "value": "#e377c2",
     "belongs_to": "1603",
     "belongs_to_name": "Bieńczyce Stare"
+  },
+"1604": {
+    "NAME_1": "Bieńczyce",
+    "name": "Osiedle Złotej Jesieni",
+    "value": "#e377c2",
+    "belongs_to": "1604",
+    "belongs_to_name": "Osiedle Złotej Jesieni"
   },
 "1701": {
     "NAME_1": "Wzgórza Krzesławickie",
@@ -799,17 +897,45 @@
   },
 "1707": {
     "NAME_1": "Wzgórza Krzesławickie",
-    "name": "Łuczanowice - Wadów",
+    "name": "Łuczanowice",
     "value": "#e377c2",
     "belongs_to": "1707",
-    "belongs_to_name": "Łuczanowice - Wadów"
+    "belongs_to_name": "Łuczanowice"
   },
 "1708": {
     "NAME_1": "Wzgórza Krzesławickie",
-    "name": "Węgrzynowice",
+    "name": "Wadów Północ",
     "value": "#e377c2",
     "belongs_to": "1708",
+    "belongs_to_name": "Wadów Północ"
+  },
+"1709": {
+    "NAME_1": "Wzgórza Krzesławickie",
+    "name": "Ruszcza Północ",
+    "value": "#e377c2",
+    "belongs_to": "1709",
+    "belongs_to_name": "Ruszcza Północ"
+  },
+"1710": {
+    "NAME_1": "Wzgórza Krzesławickie",
+    "name": "Węgrzynowice",
+    "value": "#e377c2",
+    "belongs_to": "1710",
     "belongs_to_name": "Węgrzynowice"
+  },
+"1711": {
+    "NAME_1": "Wzgórza Krzesławickie",
+    "name": "Wróżenice",
+    "value": "#e377c2",
+    "belongs_to": "1711",
+    "belongs_to_name": "Wróżenice"
+  },
+"1712": {
+    "NAME_1": "Wzgórza Krzesławickie",
+    "name": "Wadów Południe",
+    "value": "#e377c2",
+    "belongs_to": "1712",
+    "belongs_to_name": "Wadów Południe"
   },
 "1801": {
     "NAME_1": "Nowa Huta",
@@ -848,10 +974,10 @@
   },
 "1806": {
     "NAME_1": "Nowa Huta",
-    "name": "Osiedle Willowe - Wandy",
+    "name": "Osiedle Stalowe - Willowe - Wandy",
     "value": "#e377c2",
     "belongs_to": "1806",
-    "belongs_to_name": "Osiedle Willowe - Wandy"
+    "belongs_to_name": "Osiedle Stalowe - Willowe - Wandy"
   },
 "1807": {
     "NAME_1": "Nowa Huta",
@@ -897,10 +1023,10 @@
   },
 "1813": {
     "NAME_1": "Nowa Huta",
-    "name": "Na Skarpie",
+    "name": "Łąki Nowohuckie",
     "value": "#e377c2",
     "belongs_to": "1813",
-    "belongs_to_name": "Na Skarpie"
+    "belongs_to_name": "Łąki Nowohuckie"
   },
   "1814": {
     "NAME_1": "Nowa Huta",
@@ -918,10 +1044,10 @@
   },
   "1816": {
     "NAME_1": "Nowa Huta",
-    "name": "Kombinat",
+    "name": "Kombinat Zachód",
     "value": "#e377c2",
     "belongs_to": "1816",
-    "belongs_to_name": "Kombinat"
+    "belongs_to_name": "Kombinat Zachód"
   },
   "1817": {
     "NAME_1": "Nowa Huta",
@@ -932,17 +1058,17 @@
   },
   "1818": {
     "NAME_1": "Nowa Huta",
-    "name": "Pleszów Kujawy",
+    "name": "Pleszów",
     "value": "#e377c2",
     "belongs_to": "1818",
-    "belongs_to_name": "Pleszów Kujawy"
+    "belongs_to_name": "Pleszów"
   },
   "1819": {
     "NAME_1": "Nowa Huta",
-    "name": "Branice",
+    "name": "Branice Zachód",
     "value": "#e377c2",
     "belongs_to": "1819",
-    "belongs_to_name": "Branice"
+    "belongs_to_name": "Branice Zachód"
   },
   "1820": {
     "NAME_1": "Nowa Huta",
@@ -967,10 +1093,10 @@
   },
   "1823": {
     "NAME_1": "Nowa Huta",
-    "name": "Wolica - Przylasek Rusiecki",
+    "name": "Wolica",
     "value": "#e377c2",
     "belongs_to": "1823",
-    "belongs_to_name": "Wolica - Przylasek Rusiecki"
+    "belongs_to_name": "Wolica"
   },
   "1824": {
     "NAME_1": "Nowa Huta",
@@ -985,5 +1111,187 @@
     "value": "#e377c2",
     "belongs_to": "1825",
     "belongs_to_name": "Kościelniki"
+  },
+  "1826": {
+    "NAME_1": "Nowa Huta",
+    "name": "Wola Rusiecka",
+    "value": "#e377c2",
+    "belongs_to": "1826",
+    "belongs_to_name": "Wola Rusiecka"
+  },
+  "1827": {
+    "NAME_1": "Nowa Huta",
+    "name": "Górka Kościelnicka",
+    "value": "#e377c2",
+    "belongs_to": "1827",
+    "belongs_to_name": "Górka Kościelnicka"
+  },
+  "1828": {
+    "NAME_1": "Nowa Huta",
+    "name": "Chałupki",
+    "value": "#e377c2",
+    "belongs_to": "1828",
+    "belongs_to_name": "Chałupki"
+  },
+  "1829": {
+    "NAME_1": "Nowa Huta",
+    "name": "Chałupki Górne",
+    "value": "#e377c2",
+    "belongs_to": "1829",
+    "belongs_to_name": "Chałupki Górne"
+  },
+  "1830": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kujawy",
+    "value": "#e377c2",
+    "belongs_to": "1830",
+    "belongs_to_name": "Kujawy"
+  },
+  "1831": {
+    "NAME_1": "Nowa Huta",
+    "name": "Holendry",
+    "value": "#e377c2",
+    "belongs_to": "1831",
+    "belongs_to_name": "Holendry"
+  },
+  "1832": {
+    "NAME_1": "Nowa Huta",
+    "name": "Przylasek Wyciąski",
+    "value": "#e377c2",
+    "belongs_to": "1832",
+    "belongs_to_name": "Przylasek Wyciąski"
+  },
+  "1833": {
+    "NAME_1": "Nowa Huta",
+    "name": "Osiedle Lesisko",
+    "value": "#e377c2",
+    "belongs_to": "1833",
+    "belongs_to_name": "Osiedle Lesisko"
+  },
+  "1834": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kombinat Południe",
+    "value": "#e377c2",
+    "belongs_to": "1834",
+    "belongs_to_name": "Kombinat Południe"
+  },
+  "1835": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kombinat Północ",
+    "value": "#e377c2",
+    "belongs_to": "1835",
+    "belongs_to_name": "Kombinat Północ"
+  },
+  "1836": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kombinat Centrum",
+    "value": "#e377c2",
+    "belongs_to": "1836",
+    "belongs_to_name": "Kombinat Centrum"
+  },
+  "1837": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kombinat Wschód",
+    "value": "#e377c2",
+    "belongs_to": "1837",
+    "belongs_to_name": "Kombinat Wschód"
+  },
+  "1838": {
+    "NAME_1": "Nowa Huta",
+    "name": "Osiedle Centrum E",
+    "value": "#e377c2",
+    "belongs_to": "1838",
+    "belongs_to_name": "Osiedle Centrum E"
+  },
+  "1839": {
+    "NAME_1": "Nowa Huta",
+    "name": "Osiedle Na Skarpie",
+    "value": "#e377c2",
+    "belongs_to": "1839",
+    "belongs_to_name": "Osiedle Na Skarpie"
+  },
+  "1840": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kopań",
+    "value": "#e377c2",
+    "belongs_to": "1840",
+    "belongs_to_name": "Kopań"
+  },
+  "1841": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kępa",
+    "value": "#e377c2",
+    "belongs_to": "1841",
+    "belongs_to_name": "Kępa"
+  },
+  "1842": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kujawy Port",
+    "value": "#e377c2",
+    "belongs_to": "1842",
+    "belongs_to_name": "Kujawy Port"
+  },
+  "1843": {
+    "NAME_1": "Nowa Huta",
+    "name": "Stryjów",
+    "value": "#e377c2",
+    "belongs_to": "1843",
+    "belongs_to_name": "Stryjów"
+  },
+  "1844": {
+    "NAME_1": "Nowa Huta",
+    "name": "Rogów",
+    "value": "#e377c2",
+    "belongs_to": "1844",
+    "belongs_to_name": "Rogów"
+  },
+  "1845": {
+    "NAME_1": "Nowa Huta",
+    "name": "Las Kościelnicki",
+    "value": "#e377c2",
+    "belongs_to": "1845",
+    "belongs_to_name": "Las Kościelnicki"
+  },
+  "1846": {
+    "NAME_1": "Nowa Huta",
+    "name": "Cło",
+    "value": "#e377c2",
+    "belongs_to": "1846",
+    "belongs_to_name": "Cło"
+  },
+  "1847": {
+    "NAME_1": "Nowa Huta",
+    "name": "Stanisławice",
+    "value": "#e377c2",
+    "belongs_to": "1847",
+    "belongs_to_name": "Stanisławice"
+  },
+  "1848": {
+    "NAME_1": "Nowa Huta",
+    "name": "Krzemionki",
+    "value": "#e377c2",
+    "belongs_to": "1848",
+    "belongs_to_name": "Krzemionki"
+  },
+  "1849": {
+    "NAME_1": "Nowa Huta",
+    "name": "Kopaniny",
+    "value": "#e377c2",
+    "belongs_to": "1849",
+    "belongs_to_name": "Kopaniny"
+  },
+  "1850": {
+    "NAME_1": "Nowa Huta",
+    "name": "Wyciąże - Nowa Wieś",
+    "value": "#e377c2",
+    "belongs_to": "1850",
+    "belongs_to_name": "Wyciąże - Nowa Wieś"
+  },
+  "1851": {
+    "NAME_1": "Nowa Huta",
+    "name": "Branice Wschód",
+    "value": "#e377c2",
+    "belongs_to": "1851",
+    "belongs_to_name": "Branice Wschód"
   }
 }

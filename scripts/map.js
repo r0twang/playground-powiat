@@ -1,4 +1,4 @@
-d3.json('../map-data/powiaty.json').then(function(powiatyJson)
+d3.json('../map-data/regiony.json').then(function(powiatyJson)
 {
     var hoverLayer = null;
     var currentHover = null;
@@ -60,7 +60,7 @@ d3.json('../map-data/powiaty.json').then(function(powiatyJson)
     var stamenMap = new L.StamenTileLayer("terrain");
     map.addLayer(stamenMap);
     
-    d3.json('map-data/powiaty-shapes.json').then(function(powiatyShapesJson)
+    d3.json('map-data/regiony-shapes.json').then(function(powiatyShapesJson)
     {
         powiatyTopology = powiatyShapesJson;
         var powiatyShapes = topojson.feature(powiatyShapesJson, powiatyShapesJson.objects['powiaty-shapes']);

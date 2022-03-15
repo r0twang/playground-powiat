@@ -1,4 +1,5 @@
 import random
+from log import log_info
 from turn import play_turn
 from independence_turn import play_independence_turn
 
@@ -10,11 +11,11 @@ def load_values():
     return powiaty_left, last_powiat
 
 def get_last_powiat_value(powiaty_left):
-    x = 337 - powiaty_left
-    return ((3.5 * 10**-6) * x**2) + 0.125
+    x = 185 - powiaty_left
+    return (((3.5 * 0.55) * 10**-6) * x**2) + (0.125*0.55)
 
 def get_biggest_powiat_value(powiaty_left):
-    x = 337 - powiaty_left
+    x = 185 - powiaty_left
     return 0.0075 * x - 1.9275
 
 def select_turn_type():
@@ -23,13 +24,28 @@ def select_turn_type():
     if (last_powiat == '0'):
         return play_turn('regular')
 
-    if (random.random() < 1/150):
-        print('[INFO] Playing independence round.')
+    independence_random_val = random.random()
+    info = 'Independence_random_val = {}'.format(independence_random_val)
+    independence_probability = 1/110
+    log_info(info)
+    independence_info = 'Independence probability = {}'.format(independence_probability)
+    log_info(independence_info)
+    if (independence_random_val < independence_probability):
+        # print('[INFO] Playing independence round.')
+        info = '[INFO] Playing independence round.'.format()
+        log_info(info)
         return play_independence_turn()
 
     random_val = random.random()
-    if (random_val < get_last_powiat_value(powiaty_left)):
-        print('[INFO] Powiat conquering previously will be conquering.')
+    info = 'random_val = {}'.format(random_val)
+    log_info(info)
+    last_powiat_value = get_last_powiat_value(powiaty_left)
+    last_powiat_value_info = 'powiaty_left = {}'.format(last_powiat_value)
+    log_info(last_powiat_value_info)
+    if (random_val < last_powiat_value):
+        # print('[INFO] Region conquering previously will be conquering.')
+        info = '[INFO] Region conquering previously will be conquering.'.format()
+        log_info(info)
         return play_turn('last')
 
     return play_turn('regular')

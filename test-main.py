@@ -21,7 +21,7 @@ while powiaty_left > 1:
     else:
         range_len = len(items_to_sort)
     
-    message = 'Top {} powiaty by number of controlled territories:'.format(range_len)
+    message = 'Top {} regiony by number of controlled territories:'.format(range_len)
     for j in range(range_len): 
         powiat_name = powiaty_names[items_to_sort[j][1]]
         message = '{}\n{}: {}'.format(message, powiat_name, items_to_sort[j][0])
