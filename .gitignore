@@ -142,3 +142,6 @@ api-key.txt
 
 # log
 log.txt
+
+# map-data folder
+/map-data
