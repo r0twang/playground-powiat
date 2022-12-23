@@ -1,0 +1,947 @@
+January 2022, Branice Wschód conquered Branice Zachód.
+🦀 Branice Zachód is gone 🦀
+Na dzień dzisiejszy 184 regiony left.
+Top 10 regiony by number of controlled territories:
+Branice Wschód: 2
+Wyciąże - Nowa Wieś: 1
+Kopaniny: 1
+Krzemionki: 1
+Stanisławice: 1
+Cło: 1
+Las Kościelnicki: 1
+Rogów: 1
+Stryjów: 1
+Kujawy Port: 1
+
+[Error 2022-02-05 23:02:42.612920]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [1/5].
+[Error 2022-02-05 23:02:43.052533]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [2/5].
+[Error 2022-02-05 23:02:43.699939]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [3/5].
+[Error 2022-02-05 23:02:44.142070]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [4/5].
+[Error 2022-02-05 23:02:44.801851]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [5/5].
+Independence_random_val = 0.790936956917258
+Independence probability = 0.00909090909090909
+random_val = 0.6870677962641153
+powiaty_left = 0.068751925
+February 2022, Mydlniki Północ conquered Mydlniki Południe.
+🦀 Mydlniki Południe is gone 🦀
+Na dzień dzisiejszy 183 regiony left.
+Top 10 regiony by number of controlled territories:
+Branice Wschód: 2
+Mydlniki Północ: 2
+Wyciąże - Nowa Wieś: 1
+Kopaniny: 1
+Krzemionki: 1
+Stanisławice: 1
+Cło: 1
+Las Kościelnicki: 1
+Rogów: 1
+Stryjów: 1
+
+[Error 2022-02-05 23:04:43.226632]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [1/5].
+[Error 2022-02-05 23:04:43.659000]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [2/5].
+[Error 2022-02-05 23:04:44.070304]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [3/5].
+[Error 2022-02-05 23:04:44.483955]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [4/5].
+[Error 2022-02-05 23:04:44.904733]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [5/5].
+Independence_random_val = 0.7343684567071807
+Independence probability = 0.00909090909090909
+random_val = 0.918494198709489
+powiaty_left = 0.0687577
+March 2022, Zabłocie Port conquered Dąbie.
+🦀 Dąbie is gone 🦀
+Na dzień dzisiejszy 182 regiony left.
+Top 10 regiony by number of controlled territories:
+Branice Wschód: 2
+Zabłocie Port: 2
+Mydlniki Północ: 2
+Wyciąże - Nowa Wieś: 1
+Kopaniny: 1
+Krzemionki: 1
+Stanisławice: 1
+Cło: 1
+Las Kościelnicki: 1
+Rogów: 1
+
+[Error 2022-02-05 23:06:57.016904]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [1/5].
+[Error 2022-02-05 23:06:57.674100]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [2/5].
+[Error 2022-02-05 23:06:58.139612]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [3/5].
+[Error 2022-02-05 23:06:58.812970]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [4/5].
+[Error 2022-02-05 23:06:59.467977]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [5/5].
+Independence_random_val = 0.27686850605962054
+Independence probability = 0.00909090909090909
+random_val = 0.35003041342021635
+powiaty_left = 0.068767325
+April 2022, Widok conquered Bronowice Małe Południe.
+🦀 Bronowice Małe Południe is gone 🦀
+Na dzień dzisiejszy 181 regiony left.
+Top 10 regiony by number of controlled territories:
+Branice Wschód: 2
+Zabłocie Port: 2
+Mydlniki Północ: 2
+Widok: 2
+Wyciąże - Nowa Wieś: 1
+Kopaniny: 1
+Krzemionki: 1
+Stanisławice: 1
+Cło: 1
+Las Kościelnicki: 1
+
+[Error 2022-02-05 23:07:25.086425]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [1/5].
+[Error 2022-02-05 23:07:25.525061]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [2/5].
+[Error 2022-02-05 23:07:25.988229]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [3/5].
+[Error 2022-02-05 23:07:26.437586]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [4/5].
+[Error 2022-02-05 23:07:26.905797]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [5/5].
+Independence_random_val = 0.4842864604155881
+Independence probability = 0.00909090909090909
+random_val = 0.5921878668573393
+powiaty_left = 0.0687808
+May 2022, Małe Błonie conquered Zwierzyniec.
+🦀 Zwierzyniec is gone 🦀
+Na dzień dzisiejszy 180 regiony left.
+Top 10 regiony by number of controlled territories:
+Branice Wschód: 2
+Zabłocie Port: 2
+Mydlniki Północ: 2
+Widok: 2
+Małe Błonie: 2
+Wyciąże - Nowa Wieś: 1
+Kopaniny: 1
+Krzemionki: 1
+Stanisławice: 1
+Cło: 1
+
+[Error 2022-02-05 23:08:16.623928]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [1/5].
+[Error 2022-02-05 23:08:17.163911]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [2/5].
+[Error 2022-02-05 23:08:17.613412]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [3/5].
+[Error 2022-02-05 23:08:18.319929]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [4/5].
+[Error 2022-02-05 23:08:18.969065]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [5/5].
+Independence_random_val = 0.9233529201780998
+Independence probability = 0.00909090909090909
+random_val = 0.5809071179236267
+powiaty_left = 0.068798125
+June 2022, Nowy Prokocim conquered Nowy Bieżanów.
+🦀 Nowy Bieżanów is gone 🦀
+Na dzień dzisiejszy 179 regiony left.
+Top 10 regiony by number of controlled territories:
+Branice Wschód: 2
+Zabłocie Port: 2
+Nowy Prokocim: 2
+Mydlniki Północ: 2
+Widok: 2
+Małe Błonie: 2
+Wyciąże - Nowa Wieś: 1
+Kopaniny: 1
+Krzemionki: 1
+Stanisławice: 1
+
+[Error 2022-02-05 23:09:43.934496]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [1/5].
+[Error 2022-02-05 23:09:44.692627]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [2/5].
+[Error 2022-02-05 23:09:45.347108]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [3/5].
+[Error 2022-02-05 23:09:46.000877]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [4/5].
+[Error 2022-02-05 23:09:46.484482]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [5/5].
+Independence_random_val = 0.7200921271692504
+Independence probability = 0.00909090909090909
+random_val = 0.7115451352244236
+powiaty_left = 0.0688193
+July 2022, Kopiec Krakusa conquered Stare Podgórze.
+🦀 Stare Podgórze is gone 🦀
+Na dzień dzisiejszy 178 regiony left.
+Top 10 regiony by number of controlled territories:
+Branice Wschód: 2
+Zabłocie Port: 2
+Kopiec Krakusa: 2
+Nowy Prokocim: 2
+Mydlniki Północ: 2
+Widok: 2
+Małe Błonie: 2
+Wyciąże - Nowa Wieś: 1
+Kopaniny: 1
+Krzemionki: 1
+
+[Error 2022-02-05 23:10:35.140841]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [1/5].
+[Error 2022-02-05 23:10:37.419285]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [2/5].
+[Error 2022-02-05 23:10:39.115706]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [3/5].
+[Error 2022-02-05 23:10:40.244603]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [4/5].
+[Error 2022-02-05 23:10:53.461248]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [5/5].
+Independence_random_val = 0.17443889838286264
+Independence probability = 0.00909090909090909
+random_val = 0.5658497912705712
+powiaty_left = 0.06884432500000001
+August 2022, Borek Fałęcki Zachód conquered Ruczaj.
+🦀 Ruczaj is gone 🦀
+Na dzień dzisiejszy 177 regiony left.
+Top 10 regiony by number of controlled territories:
+Branice Wschód: 2
+Zabłocie Port: 2
+Kopiec Krakusa: 2
+Nowy Prokocim: 2
+Borek Fałęcki Zachód: 2
+Mydlniki Północ: 2
+Widok: 2
+Małe Błonie: 2
+Wyciąże - Nowa Wieś: 1
+Kopaniny: 1
+
+[Error 2022-02-05 23:17:00.763177]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [1/5].
+[Error 2022-02-05 23:17:01.421631]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [2/5].
+[Error 2022-02-05 23:17:02.070462]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [3/5].
+[Error 2022-02-05 23:17:02.529061]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [4/5].
+[Error 2022-02-05 23:17:03.005203]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [5/5].
+Independence_random_val = 0.9921225812637815
+Independence probability = 0.00909090909090909
+random_val = 0.547562089666057
+powiaty_left = 0.06887320000000001
+September 2022, Swoszowice conquered Kurdwanów.
+🦀 Kurdwanów is gone 🦀
+Na dzień dzisiejszy 176 regiony left.
+Top 10 regiony by number of controlled territories:
+Branice Wschód: 2
+Zabłocie Port: 2
+Kopiec Krakusa: 2
+Nowy Prokocim: 2
+Swoszowice: 2
+Borek Fałęcki Zachód: 2
+Mydlniki Północ: 2
+Widok: 2
+Małe Błonie: 2
+Wyciąże - Nowa Wieś: 1
+
+[Error 2022-02-05 23:24:02.451979]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [1/5].
+[Error 2022-02-05 23:24:02.945150]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [2/5].
+[Error 2022-02-05 23:24:03.408705]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [3/5].
+[Error 2022-02-05 23:24:03.877219]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [4/5].
+[Error 2022-02-05 23:24:04.340991]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [5/5].
+Independence_random_val = 0.7708743071613459
+Independence probability = 0.00909090909090909
+random_val = 0.8095104531226305
+powiaty_left = 0.068905925
+October 2022, Stryjów conquered Przylasek Rusiecki.
+🦀 Przylasek Rusiecki is gone 🦀
+Na dzień dzisiejszy 175 regiony left.
+Top 10 regiony by number of controlled territories:
+Branice Wschód: 2
+Stryjów: 2
+Zabłocie Port: 2
+Kopiec Krakusa: 2
+Nowy Prokocim: 2
+Swoszowice: 2
+Borek Fałęcki Zachód: 2
+Mydlniki Północ: 2
+Widok: 2
+Małe Błonie: 2
+
+[Error 2022-02-05 23:43:35.779390]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [1/5].
+[Error 2022-02-05 23:43:36.189873]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [2/5].
+[Error 2022-02-05 23:43:36.709404]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [3/5].
+[Error 2022-02-05 23:43:37.134269]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [4/5].
+[Error 2022-02-05 23:43:37.585766]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [5/5].
+Independence_random_val = 0.5318492575344549
+Independence probability = 0.00909090909090909
+random_val = 0.7293707173715755
+powiaty_left = 0.0689425
+November 2022, Małe Błonie conquered Czarna Wieś.
+🦀 Czarna Wieś is gone 🦀
+Na dzień dzisiejszy 174 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 3
+Branice Wschód: 2
+Stryjów: 2
+Zabłocie Port: 2
+Kopiec Krakusa: 2
+Nowy Prokocim: 2
+Swoszowice: 2
+Borek Fałęcki Zachód: 2
+Mydlniki Północ: 2
+Widok: 2
+
+[Error 2022-03-15 22:19:38.103842]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [1/5].
+[Error 2022-03-15 22:19:38.792404]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [2/5].
+[Error 2022-03-15 22:19:40.239500]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [3/5].
+[Error 2022-03-15 22:19:40.925594]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [4/5].
+[Error 2022-03-15 22:19:41.635050]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [5/5].
+Independence_random_val = 0.6698642080655587
+Independence probability = 0.00909090909090909
+random_val = 0.4587291384465171
+powiaty_left = 0.068982925
+December 2022, Przewóz conquered Bugaj.
+🦀 Bugaj is gone 🦀
+Na dzień dzisiejszy 173 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 3
+Branice Wschód: 2
+Stryjów: 2
+Zabłocie Port: 2
+Przewóz: 2
+Kopiec Krakusa: 2
+Nowy Prokocim: 2
+Swoszowice: 2
+Borek Fałęcki Zachód: 2
+Mydlniki Północ: 2
+
+[Error 2022-03-15 22:19:55.125487]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [1/5].
+[Error 2022-03-15 22:19:55.805851]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [2/5].
+Independence_random_val = 0.94081518049716
+Independence probability = 0.00909090909090909
+random_val = 0.21254857493170054
+powiaty_left = 0.06902720000000001
+January 2023, Grębałów conquered Wzgórza Krzesławickie.
+🦀 Wzgórza Krzesławickie is gone 🦀
+Na dzień dzisiejszy 172 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 3
+Branice Wschód: 2
+Stryjów: 2
+Grębałów: 2
+Zabłocie Port: 2
+Przewóz: 2
+Kopiec Krakusa: 2
+Nowy Prokocim: 2
+Swoszowice: 2
+Borek Fałęcki Zachód: 2
+
+[Error 2022-03-18 22:45:23.454991]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [1/5].
+[Error 2022-03-18 22:45:25.144404]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [2/5].
+Independence_random_val = 0.6427551794782338
+Independence probability = 0.00909090909090909
+random_val = 0.9372146728292162
+powiaty_left = 0.069075325
+February 2023, Małe Błonie conquered Nowa Wieś Południe.
+🦀 Nowa Wieś Południe is gone 🦀
+Na dzień dzisiejszy 171 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 4
+Branice Wschód: 2
+Stryjów: 2
+Grębałów: 2
+Zabłocie Port: 2
+Przewóz: 2
+Kopiec Krakusa: 2
+Nowy Prokocim: 2
+Swoszowice: 2
+Borek Fałęcki Zachód: 2
+
+[Error 2022-03-18 23:15:05.759718]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [1/5].
+Independence_random_val = 0.3778529715841832
+Independence probability = 0.00909090909090909
+random_val = 0.3459885808318225
+powiaty_left = 0.0691273
+March 2023, Głębinów conquered Czyżyny Łęg.
+🦀 Czyżyny Łęg is gone 🦀
+Na dzień dzisiejszy 170 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 4
+Branice Wschód: 2
+Stryjów: 2
+Grębałów: 2
+Głębinów: 2
+Zabłocie Port: 2
+Przewóz: 2
+Kopiec Krakusa: 2
+Nowy Prokocim: 2
+Swoszowice: 2
+
+[Error 2022-03-18 23:29:16.327569]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [1/5].
+[Error 2022-03-18 23:29:16.584879]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [2/5].
+[Error 2022-03-18 23:29:16.841194]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [3/5].
+[Error 2022-03-18 23:29:17.098553]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [4/5].
+[Error 2022-03-18 23:29:17.357046]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [5/5].
+Independence_random_val = 0.1428890774318221
+Independence probability = 0.00909090909090909
+random_val = 0.9760647598628691
+powiaty_left = 0.06918312500000001
+April 2023, Opatkowice Wschód conquered Jugowice.
+🦀 Jugowice is gone 🦀
+Na dzień dzisiejszy 169 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 4
+Branice Wschód: 2
+Stryjów: 2
+Grębałów: 2
+Głębinów: 2
+Zabłocie Port: 2
+Przewóz: 2
+Kopiec Krakusa: 2
+Nowy Prokocim: 2
+Swoszowice: 2
+
+[Error 2022-03-18 23:38:12.459651]
+An error get_object() missing 1 required positional argument: 'object_id' occured, trying again [1/5].
+[Error 2022-03-18 23:38:12.672979]
+An error get_object() missing 1 required positional argument: 'object_id' occured, trying again [2/5].
+[Error 2022-03-18 23:38:12.884849]
+An error get_object() missing 1 required positional argument: 'object_id' occured, trying again [3/5].
+[Error 2022-03-18 23:38:13.096725]
+An error get_object() missing 1 required positional argument: 'object_id' occured, trying again [4/5].
+[Error 2022-03-18 23:38:13.311332]
+An error get_object() missing 1 required positional argument: 'object_id' occured, trying again [5/5].
+Independence_random_val = 0.16188391157199655
+Independence probability = 0.00909090909090909
+random_val = 0.5139811527762286
+powiaty_left = 0.06924280000000001
+May 2023, Kombinat Centrum conquered Wadów Południe.
+🦀 Wadów Południe is gone 🦀
+Na dzień dzisiejszy 168 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 4
+Branice Wschód: 2
+Stryjów: 2
+Kombinat Centrum: 2
+Grębałów: 2
+Głębinów: 2
+Zabłocie Port: 2
+Przewóz: 2
+Kopiec Krakusa: 2
+Nowy Prokocim: 2
+
+[Error 2022-03-18 23:39:11.243602]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [1/5].
+[Error 2022-03-18 23:39:12.955942]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [2/5].
+[Error 2022-03-18 23:39:14.354240]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [3/5].
+[Error 2022-03-18 23:39:16.779298]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [4/5].
+[Error 2022-03-18 23:39:18.144523]
+An error Error validating access token: The session is invalid because the user logged out. occured, trying again [5/5].
+Independence_random_val = 0.09983504058077486
+Independence probability = 0.00909090909090909
+random_val = 0.7562671490041374
+powiaty_left = 0.069306325
+June 2023, Bonarka conquered Cegielniana.
+🦀 Cegielniana is gone 🦀
+Na dzień dzisiejszy 167 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 4
+Branice Wschód: 2
+Stryjów: 2
+Kombinat Centrum: 2
+Grębałów: 2
+Głębinów: 2
+Zabłocie Port: 2
+Przewóz: 2
+Kopiec Krakusa: 2
+Bonarka: 2
+
+[Error 2022-03-18 23:43:12.270135]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [1/5].
+[Error 2022-03-18 23:43:14.472420]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [2/5].
+[Error 2022-03-18 23:43:15.803168]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [3/5].
+[Error 2022-03-18 23:43:17.328250]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [4/5].
+[Error 2022-03-18 23:43:18.754480]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [5/5].
+Independence_random_val = 0.4501318368541586
+Independence probability = 0.00909090909090909
+random_val = 0.19738429840015326
+powiaty_left = 0.06937370000000001
+July 2023, Mateczny conquered Ludwinów.
+🦀 Ludwinów is gone 🦀
+Na dzień dzisiejszy 166 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 4
+Branice Wschód: 2
+Stryjów: 2
+Kombinat Centrum: 2
+Grębałów: 2
+Głębinów: 2
+Zabłocie Port: 2
+Przewóz: 2
+Kopiec Krakusa: 2
+Mateczny: 2
+
+[Error 2022-03-18 23:44:03.121484]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [1/5].
+[Error 2022-03-18 23:44:04.931271]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [2/5].
+[Error 2022-03-18 23:44:06.297945]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [3/5].
+[Error 2022-03-18 23:44:08.123185]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [4/5].
+[Error 2022-03-18 23:44:09.146341]
+An error (#200) This endpoint is deprecated since the required permission publish_actions is deprecated occured, trying again [5/5].
+Independence_random_val = 0.4963243294884415
+Independence probability = 0.00909090909090909
+random_val = 0.35585557010349256
+powiaty_left = 0.069444925
+August 2023, Widok conquered Bronowice Małe Wschód.
+🦀 Bronowice Małe Wschód is gone 🦀
+Na dzień dzisiejszy 165 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 4
+Widok: 3
+Branice Wschód: 2
+Stryjów: 2
+Kombinat Centrum: 2
+Grębałów: 2
+Głębinów: 2
+Zabłocie Port: 2
+Przewóz: 2
+Kopiec Krakusa: 2
+
+[Error 2022-03-18 23:52:46.064289]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [1/5].
+[Error 2022-03-18 23:52:46.282941]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [2/5].
+[Error 2022-03-18 23:52:46.501600]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [3/5].
+[Error 2022-03-18 23:52:46.720299]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [4/5].
+[Error 2022-03-18 23:52:46.938997]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [5/5].
+Independence_random_val = 0.26091970491517746
+Independence probability = 0.00909090909090909
+random_val = 0.8391006920266381
+powiaty_left = 0.06952000000000001
+September 2023, Stryjów conquered Przylasek Wyciąski.
+🦀 Przylasek Wyciąski is gone 🦀
+Na dzień dzisiejszy 164 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 4
+Stryjów: 3
+Widok: 3
+Branice Wschód: 2
+Kombinat Centrum: 2
+Grębałów: 2
+Głębinów: 2
+Zabłocie Port: 2
+Przewóz: 2
+Kopiec Krakusa: 2
+
+[Error 2022-12-22 23:38:44.146256]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [1/5].
+[Error 2022-12-22 23:38:44.379658]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [2/5].
+[Error 2022-12-22 23:38:44.585453]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [3/5].
+[Error 2022-12-22 23:38:44.793463]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [4/5].
+[Error 2022-12-22 23:38:45.005085]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [5/5].
+Independence_random_val = 0.02772499791817762
+Independence probability = 0.00909090909090909
+random_val = 0.09423363868607637
+powiaty_left = 0.069598925
+October 2023, Małe Błonie conquered Bronowice Małe Wschód previously occupied by Widok.
+Na dzień dzisiejszy 164 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 3
+Branice Wschód: 2
+Kombinat Centrum: 2
+Grębałów: 2
+Głębinów: 2
+Zabłocie Port: 2
+Przewóz: 2
+Kopiec Krakusa: 2
+Mateczny: 2
+
+[Error 2022-12-22 23:44:31.556852]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [1/5].
+[Error 2022-12-22 23:44:32.168869]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [2/5].
+[Error 2022-12-22 23:44:32.699932]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [3/5].
+[Error 2022-12-22 23:44:33.221466]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [4/5].
+[Error 2022-12-22 23:44:33.793461]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [5/5].
+Independence_random_val = 0.07185536187814623
+Independence probability = 0.00909090909090909
+random_val = 0.9664440089720767
+powiaty_left = 0.069598925
+November 2023, Zbydniowice conquered Wróblowice.
+🦀 Wróblowice is gone 🦀
+Na dzień dzisiejszy 163 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 3
+Branice Wschód: 2
+Kombinat Centrum: 2
+Grębałów: 2
+Głębinów: 2
+Zabłocie Port: 2
+Przewóz: 2
+Kopiec Krakusa: 2
+Mateczny: 2
+
+[Error 2022-12-22 23:45:21.057509]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [1/5].
+[Error 2022-12-22 23:45:21.769742]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [2/5].
+[Error 2022-12-22 23:45:22.432990]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [3/5].
+[Error 2022-12-22 23:45:22.976778]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [4/5].
+[Error 2022-12-22 23:45:23.552589]
+An error 'GraphAPI' object has no attribute 'put_photo' occured, trying again [5/5].
+Independence_random_val = 0.4652842249861008
+Independence probability = 0.00909090909090909
+random_val = 0.910401953292024
+powiaty_left = 0.0696817
+December 2023, Osiedle Sportowe - Zielone conquered Osiedle Słoneczne.
+🦀 Osiedle Słoneczne is gone 🦀
+Na dzień dzisiejszy 162 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 3
+Branice Wschód: 2
+Kombinat Centrum: 2
+Osiedle Sportowe - Zielone: 2
+Grębałów: 2
+Głębinów: 2
+Zabłocie Port: 2
+Przewóz: 2
+Kopiec Krakusa: 2
+
+Independence_random_val = 0.24445439034210537
+Independence probability = 0.00909090909090909
+random_val = 0.6875146551696687
+powiaty_left = 0.069768325
+January 2024, Prądnik Biały Południe conquered Prądnik Biały Północ.
+🦀 Prądnik Biały Północ is gone 🦀
+Na dzień dzisiejszy 161 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 3
+Branice Wschód: 2
+Kombinat Centrum: 2
+Osiedle Sportowe - Zielone: 2
+Grębałów: 2
+Głębinów: 2
+Zabłocie Port: 2
+Przewóz: 2
+Kopiec Krakusa: 2
+
+Independence_random_val = 0.6153771827348292
+Independence probability = 0.00909090909090909
+random_val = 0.06484881856647895
+powiaty_left = 0.0698588
+[INFO] Region conquering previously will be conquering.
+February 2024, Prądnik Biały Południe conquered Górka Narodowa Zachód.
+🦀 Górka Narodowa Zachód is gone 🦀
+Na dzień dzisiejszy 160 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 3
+Prądnik Biały Południe: 3
+Branice Wschód: 2
+Kombinat Centrum: 2
+Osiedle Sportowe - Zielone: 2
+Grębałów: 2
+Głębinów: 2
+Zabłocie Port: 2
+Przewóz: 2
+
+Independence_random_val = 0.05988653633494412
+Independence probability = 0.00909090909090909
+random_val = 0.23416836761199422
+powiaty_left = 0.069953125
+March 2024, Bieńczyce Nowe conquered Osiedle Albertyńskie.
+🦀 Osiedle Albertyńskie is gone 🦀
+Na dzień dzisiejszy 159 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 3
+Prądnik Biały Południe: 3
+Branice Wschód: 2
+Kombinat Centrum: 2
+Osiedle Sportowe - Zielone: 2
+Grębałów: 2
+Bieńczyce Nowe: 2
+Głębinów: 2
+Zabłocie Port: 2
+
+Independence_random_val = 0.7244820634914264
+Independence probability = 0.00909090909090909
+random_val = 0.4220080653172271
+powiaty_left = 0.07005130000000001
+April 2024, Kombinat Południe conquered Mogiła Wschód.
+🦀 Mogiła Wschód is gone 🦀
+Na dzień dzisiejszy 158 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 3
+Prądnik Biały Południe: 3
+Branice Wschód: 2
+Kombinat Centrum: 2
+Kombinat Południe: 2
+Osiedle Sportowe - Zielone: 2
+Grębałów: 2
+Bieńczyce Nowe: 2
+Głębinów: 2
+
+[Error 2022-12-23 00:32:46.644724]
+An error 'GraphAPI' object has no attribute 'GraphAPI' occured, trying again [1/5].
+[Error 2022-12-23 00:32:46.908019]
+An error 'GraphAPI' object has no attribute 'GraphAPI' occured, trying again [2/5].
+[Error 2022-12-23 00:32:47.165445]
+An error 'GraphAPI' object has no attribute 'GraphAPI' occured, trying again [3/5].
+[Error 2022-12-23 00:32:47.427707]
+An error 'GraphAPI' object has no attribute 'GraphAPI' occured, trying again [4/5].
+[Error 2022-12-23 00:32:47.683024]
+An error 'GraphAPI' object has no attribute 'GraphAPI' occured, trying again [5/5].
+Independence_random_val = 0.998926627670175
+Independence probability = 0.00909090909090909
+random_val = 0.711095537943584
+powiaty_left = 0.070153325
+May 2024, Olszanica conquered Chełm.
+🦀 Chełm is gone 🦀
+Na dzień dzisiejszy 157 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 3
+Prądnik Biały Południe: 3
+Branice Wschód: 2
+Kombinat Centrum: 2
+Kombinat Południe: 2
+Osiedle Sportowe - Zielone: 2
+Grębałów: 2
+Bieńczyce Nowe: 2
+Głębinów: 2
+
+[Error 2022-12-23 00:34:16.735769]
+An error 'GraphAPI' object has no attribute 'GraphAPI' occured, trying again [1/5].
+[Error 2022-12-23 00:34:16.979123]
+An error 'GraphAPI' object has no attribute 'GraphAPI' occured, trying again [2/5].
+[Error 2022-12-23 00:34:17.219366]
+An error 'GraphAPI' object has no attribute 'GraphAPI' occured, trying again [3/5].
+[Error 2022-12-23 00:34:17.457183]
+An error 'GraphAPI' object has no attribute 'GraphAPI' occured, trying again [4/5].
+[Error 2022-12-23 00:34:17.699574]
+An error 'GraphAPI' object has no attribute 'GraphAPI' occured, trying again [5/5].
+Independence_random_val = 0.8226132355069495
+Independence probability = 0.00909090909090909
+random_val = 0.015249741001347794
+powiaty_left = 0.07025920000000001
+[INFO] Region conquering previously will be conquering.
+June 2024, Olszanica conquered Mydlniki Południe previously occupied by Mydlniki Północ.
+Na dzień dzisiejszy 157 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 3
+Olszanica: 3
+Prądnik Biały Południe: 3
+Branice Wschód: 2
+Kombinat Centrum: 2
+Kombinat Południe: 2
+Osiedle Sportowe - Zielone: 2
+Grębałów: 2
+Bieńczyce Nowe: 2
+
+Independence_random_val = 0.1672022638551448
+Independence probability = 0.00909090909090909
+random_val = 0.8185171421750853
+powiaty_left = 0.07025920000000001
+July 2024, Półwsie Zwierzynieckie conquered Błonia.
+🦀 Błonia is gone 🦀
+Na dzień dzisiejszy 156 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 3
+Olszanica: 3
+Prądnik Biały Południe: 3
+Branice Wschód: 2
+Kombinat Centrum: 2
+Kombinat Południe: 2
+Osiedle Sportowe - Zielone: 2
+Grębałów: 2
+Bieńczyce Nowe: 2
+
+Independence_random_val = 0.6020063182795661
+Independence probability = 0.00909090909090909
+random_val = 0.0883321028660462
+powiaty_left = 0.070368925
+August 2024, Stryjów conquered Wola Rusiecka.
+🦀 Wola Rusiecka is gone 🦀
+Na dzień dzisiejszy 155 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 4
+Olszanica: 3
+Prądnik Biały Południe: 3
+Branice Wschód: 2
+Kombinat Centrum: 2
+Kombinat Południe: 2
+Osiedle Sportowe - Zielone: 2
+Grębałów: 2
+Bieńczyce Nowe: 2
+
+Independence_random_val = 0.19469160423877263
+Independence probability = 0.00909090909090909
+random_val = 0.9426422252878615
+powiaty_left = 0.0704825
+September 2024, Stanisławice conquered Cło.
+🦀 Cło is gone 🦀
+Na dzień dzisiejszy 154 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 4
+Olszanica: 3
+Prądnik Biały Południe: 3
+Branice Wschód: 2
+Stanisławice: 2
+Kombinat Centrum: 2
+Kombinat Południe: 2
+Osiedle Sportowe - Zielone: 2
+Grębałów: 2
+
+Independence_random_val = 0.9879493304707466
+Independence probability = 0.00909090909090909
+random_val = 0.5295422375707919
+powiaty_left = 0.07059992500000001
+October 2024, Przewóz conquered Kępa.
+🦀 Kępa is gone 🦀
+Na dzień dzisiejszy 153 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 4
+Przewóz: 3
+Olszanica: 3
+Prądnik Biały Południe: 3
+Branice Wschód: 2
+Stanisławice: 2
+Kombinat Centrum: 2
+Kombinat Południe: 2
+Osiedle Sportowe - Zielone: 2
+
+Independence_random_val = 0.4443697815727148
+Independence probability = 0.00909090909090909
+random_val = 0.27735789459569504
+powiaty_left = 0.07072120000000001
+November 2024, Krzesławice conquered Osiedle Sportowe - Zielone.
+Na dzień dzisiejszy 153 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 4
+Przewóz: 3
+Olszanica: 3
+Prądnik Biały Południe: 3
+Branice Wschód: 2
+Stanisławice: 2
+Kombinat Centrum: 2
+Kombinat Południe: 2
+Grębałów: 2
+
+Independence_random_val = 0.7230175143775921
+Independence probability = 0.00909090909090909
+random_val = 0.46341177436229175
+powiaty_left = 0.07072120000000001
+December 2024, Przegorzały Południe conquered Bodzów.
+🦀 Bodzów is gone 🦀
+Na dzień dzisiejszy 152 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 4
+Przewóz: 3
+Olszanica: 3
+Prądnik Biały Południe: 3
+Branice Wschód: 2
+Stanisławice: 2
+Kombinat Centrum: 2
+Kombinat Południe: 2
+Grębałów: 2
+
+Independence_random_val = 0.3129204842430626
+Independence probability = 0.00909090909090909
+random_val = 0.8714982292139899
+powiaty_left = 0.070846325
+January 2025, Grzegórzki Zachód conquered Wesoła Zachód.
+🦀 Wesoła Zachód is gone 🦀
+Na dzień dzisiejszy 151 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 4
+Przewóz: 3
+Olszanica: 3
+Prądnik Biały Południe: 3
+Branice Wschód: 2
+Stanisławice: 2
+Kombinat Centrum: 2
+Kombinat Południe: 2
+Grębałów: 2
+
+Independence_random_val = 0.1199486043901109
+Independence probability = 0.00909090909090909
+random_val = 0.21082556105548722
+powiaty_left = 0.0709753
+February 2025, Wola Duchacka Wschód conquered Kozłówek.
+🦀 Kozłówek is gone 🦀
+Na dzień dzisiejszy 150 regiony left.
+Top 10 regiony by number of controlled territories:
+Małe Błonie: 5
+Stryjów: 4
+Przewóz: 3
+Olszanica: 3
+Prądnik Biały Południe: 3
+Branice Wschód: 2
+Stanisławice: 2
+Kombinat Centrum: 2
+Kombinat Południe: 2
+Grębałów: 2
+
