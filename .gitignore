@@ -137,11 +137,11 @@ fb/
 # Visual Studio Code files
 .vscode/
 
-# duh
+# credentials
 api-key.txt
 
 # log
 log.txt
 
 # map-data folder
-map-data/
+map-data
