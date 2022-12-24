@@ -1,5 +1,4 @@
-from requests_oauthlib.compliance_fixes import facebook
-
+import turn
 from turn import play_turn
 from PIL import Image
 from log import log_info, log_error
@@ -9,6 +8,7 @@ import facebook as fb
 from export import create_map
 from select_turn_type import select_turn_type
 import json
+import requests
 import twitter
 import tweepy
 import twython
@@ -61,11 +61,12 @@ while i < 5:
             image.save('detail-map.png')
 
             with open('api-key.txt', 'r') as f:
-                # api_key = f.readline().rstrip()
                 consumer_key = f.readline().rstrip()
                 consumer_secret = f.readline().rstrip()
                 access_token = f.readline().rstrip()
                 access_token_secret = f.readline().rstrip()
+                fb_page_id = f.readline().rstrip()
+                fb_access_token = f.readline().rstrip()
 
             # facebook = fb.GraphAPI(access_token = api_key)
             twitter_api = twitter.Api(consumer_key, consumer_secret, access_token, access_token_secret)
@@ -124,6 +125,17 @@ while i < 5:
         # comment_response = facebook.put_object(parent_object = post_id, message = message, connection_name = 'comments', attachment_id = photo_id)
         # comment_id = comment_response['id']
         # facebook.put_comment(comment_id, 'prawmapopodobnie')
+
+        image_url = 'https://graph.facebook.com/{}/photos'.format(fb_page_id)
+        image_location = 'https://i.imgur.com/6RFgzys.png'
+        post_url = 'https://graph.facebook.com/{}/feed'.format(fb_page_id)
+        payload = {
+            'message': post_message,
+            'url': image_location,
+            'access_token': fb_access_token
+        }
+        r = requests.post(image_url, data=payload)
+        print(r.text)
 
         print(message)
 
